@@ -20,6 +20,8 @@
                         <cac-place-ext:ParentLocatedParty/>
                     </cac-place-ext:ParentLocatedParty>
                 </cac-place-ext:LocatedContractingParty>
+
+<!--                DONE-->
                 <cac:ProcurementProject>
                     <cbc:Name>Contracte mixt d'obres, subministrament i serveis: Canvi de situació dels equips de producció de fred del Palai de Gèu.</cbc:Name>
                     <cbc:TypeCode listURI="http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc">3</cbc:TypeCode>

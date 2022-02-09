@@ -3,5 +3,7 @@ mapping_xml = {
     "link": "link_href",
     "summary": "short_description",
     "title": "title",
-    "updated": "tmstmp"
+    "updated": "tmstmp",
+    "cac:PartyName": "party_name",
+    "cac:PartyLocation": "Location"
 }

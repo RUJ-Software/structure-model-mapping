@@ -14,9 +14,21 @@ def read_xml_file(filename):
         return obj_json
 
 
+def cac_mapping(map_status, json_from_file, cac):
+    # WIP
+    cac_extras_to_return = map_status
+    cac_extras_to_return['cac:PartyName'], cac_extras_to_return['cac:PartyLocation'] = cac_located_contracting_party(
+                                                        json_from_file[cac], 'cac-place-ext:LocatedContractingParty')
+    return cac_extras_to_return
+
+
+def cac_located_contracting_party(json_file, cac):
+    return json_file[cac]['cac:Party']['cac:PartyName']['cbc:Name'], \
+           json_file[cac]['cac-place-ext:ParentLocatedParty']['cac:PartyName']['cbc:Name']
+
+
 def first_mapping_extract(json_extract):
     first_value_to_map = {}
-    # cac_value_to_map = []
     # TODO: TODOS LOS CAC TIENE MAS DENTRO
     for x in json_extract:
         if x == 'summary':
@@ -24,7 +36,7 @@ def first_mapping_extract(json_extract):
         elif x == 'link':
             first_value_to_map[x] = json_extract[x]['@href']
         elif x == 'cac-place-ext:ContractFolderStatus':
-            print('\n')
+            first_value_to_map = cac_mapping(first_value_to_map, json_extract, x)
         else:
             first_value_to_map[x] = json_extract[x]
 
@@ -33,13 +45,14 @@ def first_mapping_extract(json_extract):
     return first_value_to_map
 
 
-def extra_mapping_extract(first_mapp):
-    mapp_return = first_mapp
-    mapp_return['bidding'] = first_mapp['short_description'].split(":")[1].split(";")[0]
-    mapp_return['contracting_authority'] = first_mapp['short_description'].split(":")[2].split(";")[0]
-    mapp_return['cost'] = first_mapp['short_description'].split(":")[3].split(";")[0]
-    mapp_return['status'] = first_mapp['short_description'].split(":")[4].split(";")[0]
-    return mapp_return
+def extra_mapping_extract(first_mapping):
+    # FALTA VER SI VALE PARA TODO
+    mapped_return = first_mapping
+    mapped_return['bidding'] = first_mapping['short_description'].split(":")[1].split(";")[0]
+    mapped_return['contracting_authority'] = first_mapping['short_description'].split(":")[2].split(";")[0]
+    mapped_return['cost'] = first_mapping['short_description'].split(":")[3].split(";")[0]
+    mapped_return['status'] = first_mapping['short_description'].split(":")[4].split(";")[0]
+    return mapped_return
 
 
 xml_json = read_xml_file('xml-entry-sample.xml')
