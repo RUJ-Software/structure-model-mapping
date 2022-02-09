@@ -45,13 +45,13 @@ def first_mapping_extract(json_extract):
     return first_value_to_map
 
 
-def extra_mapping_extract(first_mapping):
+def extra_mapping_extract(prev_map):
     # FALTA VER SI VALE PARA TODO
-    mapped_return = first_mapping
-    mapped_return['bidding'] = first_mapping['short_description'].split(":")[1].split(";")[0]
-    mapped_return['contracting_authority'] = first_mapping['short_description'].split(":")[2].split(";")[0]
-    mapped_return['cost'] = first_mapping['short_description'].split(":")[3].split(";")[0]
-    mapped_return['status'] = first_mapping['short_description'].split(":")[4].split(";")[0]
+    mapped_return = prev_map
+    mapped_return['bidding'] = prev_map['short_description'].split(":")[1].split(";")[0]
+    mapped_return['contracting_authority'] = prev_map['short_description'].split(":")[2].split(";")[0]
+    mapped_return['cost'] = prev_map['short_description'].split(":")[3].split(";")[0]
+    mapped_return['status'] = prev_map['short_description'].split(":")[4].split(";")[0]
     return mapped_return
 
 
