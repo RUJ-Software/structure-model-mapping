@@ -1,6 +1,7 @@
 import json
 import xmltodict
 from mapp import mapping_xml
+import pprint
 
 
 def read_xml_file(filename):
@@ -43,7 +44,9 @@ def extra_mapping_extract(first_mapp):
 
 xml_json = read_xml_file('xml-entry-sample.xml')
 print("MAPPING...")
+print("---------------------")
 first_mapping = first_mapping_extract(xml_json)
 extra_mapping = extra_mapping_extract(first_mapping)
-print(extra_mapping)
+pp = pprint.PrettyPrinter(indent=4)
+pp.pprint(extra_mapping)
 print("---------------------")
