@@ -18,7 +18,7 @@ Creation structure model mapping (xml to json) to have an easier ingestion in Mo
     'status': ' EN PLAZO',
     'title': "Contracte mixt d'obres, subministrament i serveis: Canvi de "
              'situaciÃ³ dels equips de producciÃ³ de fred del Palai de GÃ¨u.',
-    'tmstmp': '2021-10-07T12:41:56.947+02:00'}
+    'tmstmp': '2021-10-07T12:41:56.947+02:00'
 ---------------------
 
 
