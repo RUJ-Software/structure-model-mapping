@@ -2,6 +2,7 @@ import json
 import xmltodict
 from mapp import mapping_xml
 import pprint
+import html_to_json
 
 
 def read_xml_file(filename):

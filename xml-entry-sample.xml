@@ -1,75 +1,83 @@
 <entry>
-        <id>https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/8433130</id>
-        <link href="https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/notice.pscp?idDoc=89134809&amp;reqCode=viewCn"/>
-        <summary type="text">Id licitación: 2639/2021; Órgano de Contratación: Ajuntament de Vielha e Mijaran; Importe: 98633.02; Estado: EN PLAZO</summary>
-        <title>Contracte mixt d'obres, subministrament i serveis: Canvi de situació dels equips de producció de fred del Palai de Gèu.</title>
-        <updated>2021-10-07T12:41:56.947+02:00</updated>
-            <cac-place-ext:ContractFolderStatus>
-                <cbc:ContractFolderID>2639/2021</cbc:ContractFolderID>
-                <cbc-place-ext:ContractFolderStatusCode languageID="es" listURI="https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc">PUB</cbc-place-ext:ContractFolderStatusCode>
-                <cac-place-ext:LocatedContractingParty>
-                    <cac:Party>
-                        <cac:PartyName>
-                            <cbc:Name>Ajuntament de Vielha e Mijaran</cbc:Name>
-                        </cac:PartyName>
-                    </cac:Party>
-                    <cac-place-ext:ParentLocatedParty>
-                        <cac:PartyName>
-                            <cbc:Name>Entitats municipals de Catalunya</cbc:Name>
-                        </cac:PartyName>
-                        <cac-place-ext:ParentLocatedParty/>
-                    </cac-place-ext:ParentLocatedParty>
-                </cac-place-ext:LocatedContractingParty>
-
-<!--                DONE-->
-                <cac:ProcurementProject>
-                    <cbc:Name>Contracte mixt d'obres, subministrament i serveis: Canvi de situació dels equips de producció de fred del Palai de Gèu.</cbc:Name>
-                    <cbc:TypeCode listURI="http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc">3</cbc:TypeCode>
-                    <cac:BudgetAmount>
-                        <cbc:EstimatedOverallContractAmount currencyID="EUR">98633.02</cbc:EstimatedOverallContractAmount>
-                        <cbc:TaxExclusiveAmount currencyID="EUR">98633.02</cbc:TaxExclusiveAmount>
-                    </cac:BudgetAmount>
-                    <cac:RequiredCommodityClassification>
-                        <cbc:ItemClassificationCode listURI="http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc">45000000</cbc:ItemClassificationCode>
-                    </cac:RequiredCommodityClassification>
-                    <cac:RealizedLocation>
-                        <cbc:CountrySubentityCode listURI="http://contrataciondelestado.es/codice/cl/2.08/NUTS-2021.gc">ES513</cbc:CountrySubentityCode>
-                    </cac:RealizedLocation>
-                    <cac:PlannedPeriod>
-                        <cbc:DurationMeasure unitCode="MON">2</cbc:DurationMeasure>
-                    </cac:PlannedPeriod>
-                </cac:ProcurementProject>
-                <cac:TenderingProcess>
-                    <cbc:ProcedureCode listURI="https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc">9</cbc:ProcedureCode>
-                    <cac:TenderSubmissionDeadlinePeriod>
-                        <cbc:EndDate>2021-10-27</cbc:EndDate>
-                        <cbc:EndTime>23:59:00</cbc:EndTime>
-                    </cac:TenderSubmissionDeadlinePeriod>
-                </cac:TenderingProcess>
-                <cac:LegalDocumentReference>
-                    <cbc:ID>PCAP EX_2639_2021.pdf</cbc:ID>
-                    <cac:Attachment>
-                        <cac:ExternalReference>
-                            <cbc:URI>https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/portalfileretrieving.pscp?reqCode=retrieveFile&amp;docHash=713af4953a1d93ce74a694fde4d6d7ee&amp;fileId=89150849&amp;capId=9078919&amp;idTS=88914753</cbc:URI>
-                        </cac:ExternalReference>
-                    </cac:Attachment>
-                </cac:LegalDocumentReference>
-                <cac:TechnicalDocumentReference>
-                    <cbc:ID>PPT EX_2639_2021.pdf</cbc:ID>
-                    <cac:Attachment>
-                        <cac:ExternalReference>
-                            <cbc:URI>https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/portalfileretrieving.pscp?reqCode=retrieveFile&amp;docHash=4829ce7b68d17b0de72fd6fa83e285fe&amp;fileId=89135120&amp;capId=9078919&amp;idTS=88914753</cbc:URI>
-                        </cac:ExternalReference>
-                    </cac:Attachment>
-                </cac:TechnicalDocumentReference>
-                <cac-place-ext:ValidNoticeInfo>
-                    <cbc-place-ext:NoticeTypeCode listURI="http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc">DOC_CN</cbc-place-ext:NoticeTypeCode>
-                    <cac-place-ext:AdditionalPublicationStatus>
-                        <cbc-place-ext:PublicationMediaName>Perfil del contratante</cbc-place-ext:PublicationMediaName>
-                        <cac-place-ext:AdditionalPublicationDocumentReference>
-                            <cbc:IssueDate>2021-10-07</cbc:IssueDate>
-                        </cac-place-ext:AdditionalPublicationDocumentReference>
-                    </cac-place-ext:AdditionalPublicationStatus>
-                </cac-place-ext:ValidNoticeInfo>
-            </cac-place-ext:ContractFolderStatus>
-</entry>
+        <id>https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/7831023</id>
+        <link href="https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/awardnotice.pscp?reqCode=viewPcan&amp;idDoc=89140653&amp;lawType=3"/>
+        <summary type="text">Id licitación: EXPED-2833/2021; Órgano de Contratación: Ajuntament de Lliçà d'Amunt; Importe: 1440.00; Estado: ADJUDICADA</summary>
+        <title>Arrendament per al seu ús privatiu d'un espai dedomini públic municipal per instal·lar un remolc de venda de productes de xurreria</title>
+        <updated>2021-10-07T12:41:56.855+02:00</updated>
+        <cac-place-ext:ContractFolderStatus>
+            <cbc:ContractFolderID>EXPED-2833/2021</cbc:ContractFolderID>
+            <cbc-place-ext:ContractFolderStatusCode languageID="es" listURI="https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc">ADJ</cbc-place-ext:ContractFolderStatusCode>
+            <cac-place-ext:LocatedContractingParty>
+                <cac:Party>
+                    <cac:PartyName>
+                        <cbc:Name>Ajuntament de Lliçà d'Amunt</cbc:Name>
+                    </cac:PartyName>
+                </cac:Party>
+                <cac-place-ext:ParentLocatedParty>
+                    <cac:PartyName>
+                        <cbc:Name>Entitats municipals de Catalunya</cbc:Name>
+                    </cac:PartyName>
+                    <cac-place-ext:ParentLocatedParty/>
+                </cac-place-ext:ParentLocatedParty>
+            </cac-place-ext:LocatedContractingParty>
+            <cac:ProcurementProject>
+                <cbc:Name>Arrendament per al seu ús privatiu d'un espai dedomini públic municipal per instal·lar un remolc de venda de productes de xurreria</cbc:Name>
+                <cbc:TypeCode listURI="http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc">50</cbc:TypeCode>
+                <cac:BudgetAmount>
+                    <cbc:EstimatedOverallContractAmount currencyID="EUR">1440</cbc:EstimatedOverallContractAmount>
+                    <cbc:TaxExclusiveAmount currencyID="EUR">1440</cbc:TaxExclusiveAmount>
+                </cac:BudgetAmount>
+                <cac:RequiredCommodityClassification>
+                    <cbc:ItemClassificationCode listURI="http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc">55320000</cbc:ItemClassificationCode>
+                </cac:RequiredCommodityClassification>
+                <cac:RealizedLocation>
+                    <cbc:CountrySubentityCode listURI="http://contrataciondelestado.es/codice/cl/2.08/NUTS-2021.gc">ES511</cbc:CountrySubentityCode>
+                </cac:RealizedLocation>
+                <cac:PlannedPeriod>
+                    <cbc:DurationMeasure unitCode="ANN">2</cbc:DurationMeasure>
+                </cac:PlannedPeriod>
+            </cac:ProcurementProject>
+            <cac:TenderResult>
+                <cbc:ResultCode listURI="http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc">8</cbc:ResultCode>
+                <cbc:ReceivedTenderQuantity>1</cbc:ReceivedTenderQuantity>
+                <cac:WinningParty>
+                    <cac:PartyIdentification>
+                        <cbc:ID schemeName="OTROS">X9901857</cbc:ID>
+                    </cac:PartyIdentification>
+                    <cac:PartyName>
+                        <cbc:Name>IURII ATAMANCHUK</cbc:Name>
+                    </cac:PartyName>
+                </cac:WinningParty>
+                <cac:AwardedTenderedProject>
+                    <cac:LegalMonetaryTotal>
+                        <cbc:TaxExclusiveAmount currencyID="EUR">1900</cbc:TaxExclusiveAmount>
+                    </cac:LegalMonetaryTotal>
+                </cac:AwardedTenderedProject>
+            </cac:TenderResult>
+            <cac:TenderingProcess>
+                <cbc:ProcedureCode listURI="https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc">1</cbc:ProcedureCode>
+                <cac:TenderSubmissionDeadlinePeriod>
+                    <cbc:EndDate>2021-07-21</cbc:EndDate>
+                    <cbc:EndTime>14:00:00</cbc:EndTime>
+                </cac:TenderSubmissionDeadlinePeriod>
+            </cac:TenderingProcess>
+            <cac-place-ext:ValidNoticeInfo>
+                <cbc-place-ext:NoticeTypeCode listURI="http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc">DOC_CN</cbc-place-ext:NoticeTypeCode>
+                <cac-place-ext:AdditionalPublicationStatus>
+                    <cbc-place-ext:PublicationMediaName>Perfil del contratante</cbc-place-ext:PublicationMediaName>
+                    <cac-place-ext:AdditionalPublicationDocumentReference>
+                        <cbc:IssueDate>2021-07-06</cbc:IssueDate>
+                    </cac-place-ext:AdditionalPublicationDocumentReference>
+                </cac-place-ext:AdditionalPublicationStatus>
+            </cac-place-ext:ValidNoticeInfo>
+            <cac-place-ext:ValidNoticeInfo>
+                <cbc-place-ext:NoticeTypeCode listURI="http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc">DOC_CAN_ADJ</cbc-place-ext:NoticeTypeCode>
+                <cac-place-ext:AdditionalPublicationStatus>
+                    <cbc-place-ext:PublicationMediaName>Perfil del contratante</cbc-place-ext:PublicationMediaName>
+                    <cac-place-ext:AdditionalPublicationDocumentReference>
+                        <cbc:IssueDate>2021-10-07</cbc:IssueDate>
+                    </cac-place-ext:AdditionalPublicationDocumentReference>
+                </cac-place-ext:AdditionalPublicationStatus>
+            </cac-place-ext:ValidNoticeInfo>
+        </cac-place-ext:ContractFolderStatus>
+    </entry>
