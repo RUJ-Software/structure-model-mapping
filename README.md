@@ -1,5 +1,11 @@
 # **Structure model mapping**
 Creation structure model mapping (xml to json) to have an easier ingestion in MongoDB
+(use html_b4s.py)
+
+Do:
+`pip install beautifulsoup4`
+
+Version: 4.10.0
 
 ---------------------
 
