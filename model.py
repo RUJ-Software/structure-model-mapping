@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from pymongo import MongoClient
 
 #url = ' https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=57p7Vz36p1KXQV0WE7lYPw%3D%3D'
 #url = 'https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5HKn3DhBJRV7h85%2Fpmmsfw%3D%3D'
@@ -10,11 +11,20 @@ soup = BeautifulSoup(response.content.decode('utf-8'), "html.parser")
 raw_data = soup.find_all('form', class_='form')
 #print(raw_data[1])
 
-def form_to_model(data):
+def connectMongo():
+    client = MongoClient('mongodb://admin:InsoData2022-@localhost:27017/')
+    db = client.admin
+    return db
+
+def insertToMongo(data):
+    result = db.test.insert_one(data)
+
+
+def form_to_model(data, db):
     soup = BeautifulSoup(str(data), "html.parser")    
     elements = soup.find_all('ul')
 
-    dictOfWords = {'exp': '', 'org_contratacion': '', 'estado': '', 'objeto': '', 'presupuesto_sin_impuestos': '', 'valor_estimado': '', 'tipo_contrato': '', 'cpv': '', 'lugar': '', 'procedimiento': '',
+    dictOfWords = {'org_contratacion': '', 'estado': '', 'objeto': '', 'presupuesto_sin_impuestos': '', 'valor_estimado': '', 'tipo_contrato': '', 'cpv': '', 'lugar': '', 'procedimiento': '',
             'info': {}}
 
     for element in elements:
@@ -58,7 +68,8 @@ def form_to_model(data):
                     dictOfWords['info']['fecha_presentacion_solicitud'] = element.find('span', class_="outputText").text
             #print(element.get('title', 'No title attribute'))
 
-
+    insertToMongo(dictOfWords)
     print(dictOfWords)
 
-form_to_model(raw_data[1])
+db = connectMongo()
+form_to_model(raw_data[1], db)
