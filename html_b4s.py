@@ -2,8 +2,17 @@ import json
 import sys
 import pprint
 from bs4 import BeautifulSoup
+
 sys.setrecursionlimit(1500000000)
-# outputText beautiful soup
+
+
+def divided_data(data):
+    data_split = data.split(",")
+    data_dict = {}
+    for info in data_split:
+        number, definition = info.split("-")
+        data_dict[number.strip()] = definition.strip()
+    return data_dict
 
 
 def get_values_b4s(bs4_extract):
@@ -17,7 +26,10 @@ def get_values_b4s(bs4_extract):
             tipo3 = span.get("title").replace(":", "").strip()
         if span.has_attr('class') and span['class'][0] == 'outputText':
             if tipo3 != "":
-                final_values[tipo3] = span.get("title")
+                if tipo3 == 'CÃ³digo CPV':
+                    final_values[tipo3] = divided_data(span.get("title"))
+                else:
+                    final_values[tipo3] = span.get("title")
             else:
                 final_values[cont] = span.get("title")
                 tipo3 = ""
@@ -35,4 +47,3 @@ def read_xml_file(filename):
 html_file = read_xml_file('form_example.html')
 pp = pprint.PrettyPrinter(indent=4)
 pp.pprint(html_file)
-
