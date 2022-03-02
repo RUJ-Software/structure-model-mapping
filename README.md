@@ -22,7 +22,7 @@ When the key is a number that means that we dont have a specified title for that
     1: '2021/26/SER',
     2: 'ENTIDADES LOCALES>Baleares>Consell Insular de Mallorca',
     'Adjudicatario': 'GARAU INGENIEROS SLU',
-    'CÃ³digo CPV': 'CÃ³digo CPV': {   '71310000': 'Servicios de consultorÃ\xada en '
+    'CÃ³digo CPV': {   '71310000': 'Servicios de consultorÃ\xada en '
                                    'ingenierÃ\xada y construcciÃ³n.',
                        '71311100': 'Servicios de asistencia en ingenierÃ\xada '
                                    'civil.',
