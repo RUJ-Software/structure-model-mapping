@@ -11,7 +11,7 @@ def divided_data(data):
     data_dict = {}
     for info in data_split:
         number, definition = info.split("-")
-        data_dict[number] = definition
+        data_dict[number.strip()] = definition.strip()
     return data_dict
 
 

@@ -22,14 +22,14 @@ When the key is a number that means that we dont have a specified title for that
     1: '2021/26/SER',
     2: 'ENTIDADES LOCALES>Baleares>Consell Insular de Mallorca',
     'Adjudicatario': 'GARAU INGENIEROS SLU',
-    'CÃ³digo CPV': 'CÃ³digo CPV': {   ' 71311100': 'Servicios de asistencia en ingenierÃ\xada '
-                                    'civil.',
-                       ' 71316000': 'Servicios de consultorÃ\xada en '
-                                    'telecomunicaciones.',
-                       ' 71317210': 'Servicios de consultorÃ\xada en salud y '
-                                    'seguridad.',
-                       '71310000': 'Servicios de consultorÃ\xada en '
-                                   'ingenierÃ\xada y construcciÃ³n.'},
+    'CÃ³digo CPV': 'CÃ³digo CPV': {   '71310000': 'Servicios de consultorÃ\xada en '
+                                   'ingenierÃ\xada y construcciÃ³n.',
+                       '71311100': 'Servicios de asistencia en ingenierÃ\xada '
+                                   'civil.',
+                       '71316000': 'Servicios de consultorÃ\xada en '
+                                   'telecomunicaciones.',
+                       '71317210': 'Servicios de consultorÃ\xada en salud y '
+                                   'seguridad.'},
     'Enlace a la licitaciÃ³n': 'https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=K08wDtiABXdvYnTkQN0%2FZA%3D%3D',
     'Estado de la LicitaciÃ³n': 'Resuelta',
     'Importe de AdjudicaciÃ³n': 'Sello de tiempo',
